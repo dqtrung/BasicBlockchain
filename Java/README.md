@@ -1,14 +1,14 @@
-#Basic blockchain implementation using ArrayList of Java
+# Basic blockchain implementation using ArrayList of Java
 
 > This's a very basic implementation to get knowledge about blockchain.
 
-##Quick explanation:
+## Quick explanation:
 
 Blockchain is a list of blocks with "every block contain verified content of the previous block".
 Then we use collision-free attribute of the cryptographic hash function to verify "the content of the previous block".
 This example will use SHA256 hash function, and use built-in ArrayList type of Java.
 
-##Basic struture:
+## Basic struture:
 
 A block include at least header and data.
 A header contain the verified information of the previous block, or the bash code in this case.
@@ -16,7 +16,7 @@ The very first block is called GENESIS block, with the bash code is the its code
 
 > We can see blockhain is data struture base on another struture.
 
-##Note:
+## Note:
  - Since we're using Java, for quickly, the example will use public attribute instead of getter and setter methods.
  - Data in blockchain could be changed, but it will take a greate cost will the big data.
 
